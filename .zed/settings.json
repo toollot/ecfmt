@@ -1,0 +1,22 @@
+{
+  "languages": {
+    "Rust": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+      "language_servers": [
+        "rust-analyzer",
+      ],
+    },
+    "TOML": {
+      "format_on_save": "on",
+      "formatter": {
+        "language_server": {
+          "name": "tombi",
+        },
+      },
+      "language_servers": [
+        "tombi",
+      ],
+    },
+  },
+}

@@ -1,0 +1,10 @@
+#:schema https://www.schemastore.org/cargo
+
+[package]
+name = "ecfmt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+editorconfig-parser = "0.0.4"
+gix-ignore = "0.24.1"
